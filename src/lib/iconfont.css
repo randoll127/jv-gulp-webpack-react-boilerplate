@@ -1,0 +1,44 @@
+
+@font-face {font-family: "iconfont-framework";
+    src: url('../assets/iconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+    url('../assets/iconfont/iconfont.ttf') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "iconfont-framework2";
+    src: url('../assets/image/iconfont.woff') format('woff'), /* chrome, firefox */
+    url('../assets/image/iconfont.ttf') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.iconfont-framework {
+    font-family:"iconfont-framework2" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-close:before { content: "\e600"; }
+.icon-cansee:before { content: "\e601"; }
+.icon-cantsee:before { content: "\e602"; }
+.icon-correct:before { content: "\e603"; }
+.icon-checkobx:before { content: "\e605"; }
+.icon-checkbox-empty:before { content: "\e606"; }
+.icon-correct1:before { content: "\e604"; }
+.icon-down:before { content: "\e607"; }
+.icon-up:before { content: "\e608"; }
+.icon-arrowfilterdown:before { content: "\e609"; }
+.icon-arrowfilterup:before { content: "\e60a"; }
+.icon-hour:before { content: "\e60b"; }
+.icon-correct2:before { content: "\e60c"; }
+.icon-question:before { content: "\e60d"; }
+.icon-question2:before { content: "\e60e"; }
+
+
+.imagesource {
+    background: url(../assets/image/icon-hammer.png);
+    background-color: lightblue;
+}
+
+.imagesource2 {
+    background: url(../demo/icon_coin.png);
+    background-color: lightblue;
+}
